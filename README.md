@@ -30,4 +30,4 @@ In Capture One, select all images you want to apply the EXIF crop to. Then choos
 Note: don't apply it multiple times, as it will crop proportionnaly to the existing crop.
 
 # If you like it...
-[Buy me coffee! Thanks!](buymeacoff.ee/KJoYI9Dnz)
+[Buy me coffee! Thanks!](https://buymeacoff.ee/KJoYI9Dnz)
