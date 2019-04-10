@@ -1,8 +1,6 @@
 set decimalDelimiter to character 2 of (1 / 3 as string) -- This is because the string numbers needs to be localized to be converted to numbers
 
 tell application "Capture One 12"
-	set imageNames to ""
-	
 	repeat with variantItem in (get selected variants)
 		try
 			set imagePath to (get path of (get parent image of variantItem))

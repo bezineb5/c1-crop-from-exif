@@ -17,7 +17,7 @@ brew install exiftool
 ```
 
 Then, copy the script into the Capture One scripting folder:
-* Download the file "Crop from EXIF.applescript"
+* Download the file [Crop from EXIF.applescript](https://raw.githubusercontent.com/bezineb5/c1-crop-from-exif/master/Crop%20from%20EXIF.applescript)
 * In Capture one, go to menu *Scripts > Open Scripts Folder*
 * Copy the downloaded file in that directory (which is  "~/Library/Scripts/Capture One Scripts/")
 * Go back to Capture One, choose menu *Scripts > Update Scripts Menu*
