@@ -1,12 +1,12 @@
 set decimalDelimiter to character 2 of (1 / 3 as string) -- This is because the string numbers needs to be localized to be converted to numbers
 
-tell application "Capture One 12"
+tell application "Capture One 23"
 	repeat with variantItem in (get selected variants)
 		try
 			set imagePath to (get path of (get parent image of variantItem))
 			
 			-- Extract the crop area from the EXIF
-			set commandLine to "eval `/usr/libexec/path_helper -s`; exiftool -X -DefaultUserCrop \"" & imagePath & "\""
+			set commandLine to "/opt/homebrew/bin/exiftool -X -DefaultUserCrop \"" & imagePath & "\""
 			set xmlExif to (do shell script commandLine)
 			tell application "System Events"
 				set xmlData to make new XML data with properties {name:"xmldata", text:xmlExif}
